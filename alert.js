@@ -1,1 +1,1 @@
-console.log('hiii')
+alert('hi')
