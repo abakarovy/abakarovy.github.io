@@ -9,6 +9,8 @@ td {
 }
 
 #navbar {
+    display: flex;
+    position: relative;
     /* align-items: center; */
     justify-content: center;
     width: 100%;
@@ -19,6 +21,13 @@ td {
     border-top-left-radius: 25px;
     
     transition: 300ms;
+}
+
+#container {
+    display: flex;
+
+    padding-top: 60px;
+    justify-content: center;
 }
 
 .background {
