@@ -19,6 +19,16 @@ td {
 }
 
 #navbar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 40px;
     background-color: cadetblue;
-    border-radius: 25px;
+
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    transition: 300ms;
 }
