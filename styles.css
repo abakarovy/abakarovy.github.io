@@ -1,6 +1,7 @@
 table {
     border-collapse: collapse;
-    border: 1px solid #242424 ;
+    border: 1px solid #242424;
+    background-color: white;
 }
 
 td {
@@ -14,5 +15,10 @@ td {
     z-index: -1;
     position: absolute;
     transition: 300ms;
+    border-radius: 25px;
+}
+
+#navbar {
+    background-color: cadetblue;
     border-radius: 25px;
 }
