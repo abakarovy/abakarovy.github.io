@@ -11,6 +11,7 @@
 
 	<!-- scripts and/or styles -->
     <link rel="stylesheet" href="assets/styles.css">
+	<script src="index.js"></script>
 </head>
 <body>
 	<div id="app">
@@ -20,9 +21,10 @@
 
 		<div id="mainColumn">
 			<main class="Card" style="padding: .8em;">
-				<h2 style="margin: 0;">Welcome!</h2>
-				<p style="margin: 0;">
-					This is my personal website. I post my projects here, including free tools, packages, and more.
+				<h2 data-il8n-key="main-col-welcome" style="margin: 0;">Welcome!</h2>
+
+				<p data-il8n-key="main-col-lead" style="margin: 0;">
+					This is my personal website. You can see all my projects here. (including W.I.P)
 				</p>
 			</main>
 
@@ -33,40 +35,23 @@
 			<nav id="tools" class="WrappingGrid">
                 
                 <a class="Card" href="https://github.com/abkrquan/wheel-of-fortune" target="_blank">
-                    <h1 class="green">Public</h1>
-                    <img src="" width="1200" height="630" loading="lazy" alt="¯\_(ツ)_/¯">
+					<img src="" width="1200" height="630" loading="lazy" alt="¯\_(ツ)_/¯">
                     <div>
-                        <h2>Wheel Of Fortune</h2>
+						<h2>Wheel Of Fortune</h2>
                         <small>Javascript, React</small>
                     </div>
+					<h1 class="green">Public</h1>
                 </a>
 
+				
 				<a class="Card" href="" target="_blank">
-                    <h1 class="blue">Coming soon</h1>
 					<img src="" width="1200" height="630" loading="lazy" alt="¯\_(ツ)_/¯">
 					<div>
 						<h2>QR Code Generator</h2>
-						<small>Generate QR Codes.</small>
+						<small>¯\_(ツ)_/¯</small>
 					</div>
+					<h1>Coming soon</h1>
 				</a>
-
-                <!--
-                    <a class="Card" href="" target="_blank">
-                        <img src="" width="1200" height="630" loading="lazy" alt="¯\_(ツ)_/¯">
-                        <div>
-                            <h2>File Converter</h2>
-                            <small>Convert audio, image and video formats.</small>
-                        </div>
-                    </a>
-                    
-                    <a class="Card" href="" target="_blank">
-                        <img src="" width="1200" height="630" loading="lazy" alt="¯\_(ツ)_/¯">
-                        <div>
-                            <h2>Visual Acuity Test</h2>
-                            <small>Randomized eye test.</small>
-                        </div>
-                    </a>
-                -->
 		</div>
 
 		<aside id="sidebar">
