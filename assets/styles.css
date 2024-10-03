@@ -131,10 +131,15 @@
     overflow:auto;
     margin:0
   }
-  .WrappingGrid {
+  .WrappingGridTools {
     --min-column-width: 250px;
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(min(30%,var(--min-column-width)), 1fr))
+  }
+  .WrappingGridLinks {
+    --min-column-width: 250px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(min(50%,var(--min-column-width)), 1fr))
   }
   .Card {
     position:relative;
