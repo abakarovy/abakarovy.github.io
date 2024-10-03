@@ -1,15 +1,11 @@
 const locale = {
     "en-US": {
-        'main-col-welcome': 'Welcome!',
         'main-col-lead': "This is my personal website. You can see all my projects here (including abandoned and W.I.P's)"
     },
     "ru-RU": {        
-        'main-col-welcome': '👋',
         'main-col-lead': 'Это мой личный вебсайт (портфолио). Здесь есть все мои проекты (Включая не завершенные или только начатые проекты)'
     }
 }
-
-console.log(navigator.languages)
 
 document.addEventListener("DOMContentLoaded", () => {
     document
